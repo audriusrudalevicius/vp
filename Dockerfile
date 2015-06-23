@@ -13,12 +13,6 @@ RUN \
   apt-get install -y openjdk-7-jre && \
   rm -rf /var/lib/apt/lists/*
 
-# Set environment variables.
-ENV HOME /root
-
-# Define working directory.
-WORKDIR /data
-
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-7-openjdk-amd64
 
@@ -39,8 +33,6 @@ RUN chmod 755 /do.sh
 
 USER developer
 ENV HOME /home/developer
-
-VOLUME /data/
 
 ENTRYPOINT ["/do.sh"]
 
