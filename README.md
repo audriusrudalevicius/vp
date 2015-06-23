@@ -1,16 +1,18 @@
 # vp
 
-Setup
----
+### Setup
+
 
 ```sh
-git clone https://github.com/d3trax/vp.git
-cd vp
-chmod +x ./run.sh && ./run.sh
-``
+$ git clone https://github.com/d3trax/vp.git
+$ cd vp
+$ chmod +x ./run.sh && ./run.sh
+```
 
-Run
----
+
+### Run
+
+
 ```sh
-./run.sh
+$ ./run.sh
 ```
